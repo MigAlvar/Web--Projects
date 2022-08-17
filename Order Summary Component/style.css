@@ -1,0 +1,122 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+    background-image:url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+.container{
+    background-color:   white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:20px;
+    font-family: "Red Hat Display";
+    box-shadow: 3px 19px 13px hsl(225, 56%, 89%);
+    max-width: 380px;
+    min-width: 250px;
+    margin-top: 8%;
+
+}
+h1{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color:hsl(223, 47%, 23%);
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#poster{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px 0px 25px;
+    width: 270px;
+    text-align: center;
+    color:hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+#highlight{
+    background-color: hsl(225, 100%, 98%);
+    display:flex;
+    border-radius: 12px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    padding: 1px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#highlight p{
+    align-items: left;
+    font-size:14px;
+    font-weight: 500;
+    padding-right: 40px;
+}
+
+#highlight strong{
+    color:hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+#highlight a{
+    color: hsl(245, 75%, 52%);
+    padding: 10px;
+    padding-right:18px;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: right;
+}
+
+#highlight a:hover, a:active{
+    color:hsl(224, 23%, 55%);
+}
+#icon{
+    padding:10px 10px 5px 12px
+}
+
+.payment{
+    background-color: hsl(245, 75%, 52%);
+    font-weight: 600;
+    color: white;
+    border-radius: 11px;
+    padding:2px;
+    box-shadow: 0px 12px 15px 3px lightgray;
+}
+
+.payment:hover, :active{
+    background-color: hsl(224, 23%, 55%);
+}
+
+.cancel{
+    margin-top:20px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.cancel a{
+    text-decoration: none;
+    color:hsl(224, 23%, 55%);
+}
+.cancel a:hover, a:active{
+    color:hsl(223, 47%, 23%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
